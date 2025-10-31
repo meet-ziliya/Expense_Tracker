@@ -1,5 +1,22 @@
 <resources>
+    <!-- App Title -->
     <string name="app_name">Expense Tracker</string>
-    <string name="expense_tracker">Expense Tracker</string>
-    <string name="app_logo">App Logo</string>
+
+    <!-- Labels -->
+    <string name="label_today">Today\n₹ 0</string>
+    <string name="label_month_total">Current Month\n₹ 0</string>
+    <string name="label_date">Date</string>
+    <string name="label_category">Category</string>
+    <string name="label_amount">Amount</string>
+    <string name="label_description">Description</string>
+
+    <!-- Hints -->
+    <string name="hint_select_date">Select Date</string>
+    <string name="hint_choose_category">Choose Category</string>
+    <string name="hint_enter_amount">Enter Amount here</string>
+    <string name="hint_enter_desc">Enter Desc here (Optional)</string>
+
+    <!-- Buttons -->
+    <string name="button_add_expense">Add Expense</string>
+    <string name="button_submit">Submit</string>
 </resources>

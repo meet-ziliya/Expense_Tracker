@@ -1,5 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- App Theme Colors -->
+    <color name="colorPrimary">#37474F</color>
+    <color name="colorAccent">#D32F2F</color>
+    <color name="colorBackground">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="textColorPrimary">#000000</color>
+    <color name="textColorHint">#5D5D5D</color>
+    <color name="textColorWhite">#FFFFFF</color>
 </resources>
