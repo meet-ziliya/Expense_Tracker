@@ -1,18 +1,25 @@
-# 🧾 Expense Tracker App
+# 💰 Expense Tracker App
 
-## 📖 Description
-A simple Android app to record and manage daily expenses.  
-Users can easily add, edit, and view their expenses by date or category.
+Expense Tracker is a simple Android application built as a college project.  
+It helps users manage their daily expenses with a clean and easy-to-use interface.
+
+## 📱 App Screens
+Home Screen  Add Expense  Reports  
 
 ## ✨ Features
 - Add and edit daily expenses  
-- View expenses day-wise and month-wise  
-- Clean and user-friendly interface  
+- View day-wise and month-wise reports  
+- Simple and modern UI design  
+- No online database — uses local storage  
+- Built with Kotlin and XML layouts  
 
-## 🛠️ Tech Used
-- Kotlin  
-- SQLite Database  
-- Android Studio  
+## 🛠️ Technologies Used
+- **Language:** Kotlin  
+- **Framework:** Android SDK  
+- **IDE:** Android Studio  
+- **UI Components:** ConstraintLayout, RecyclerView, CardView, EditText, Button  
+- **Storage:** SQLite
+- 
+---
 
-## 👨‍💻 Developer
-**Thakkar Mitkumar Bharatbhai**
+👨‍💻 *Developed by Thakkar Mitkumar Bharatbhai*
