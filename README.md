@@ -4,7 +4,10 @@ Expense Tracker is a simple Android application built as a college project.
 It helps users manage their daily expenses with a clean and easy-to-use interface.
 
 ## 📱 App Screens
-Home Screen  Add Expense  Reports  
+
+| Splash | Home | Day-wise | Month-wise |
+|--------|------|-----------|-------------|
+| ![](screenshots/splash.jpg) | ![](screenshots/home.jpg) | ![](screenshots/daywise.jpg) | ![](screenshots/monthwise.jpg) |
 
 ## ✨ Features
 - Add and edit daily expenses  
