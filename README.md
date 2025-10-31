@@ -7,7 +7,8 @@ It helps users manage their daily expenses with a clean and easy-to-use interfac
 
 | Splash | Home | Day-wise | Month-wise |
 |--------|------|-----------|-------------|
-| ![](screenshots/splash.jpg) | ![](screenshots/home.jpg) | ![](screenshots/daywise.jpg) | ![](screenshots/monthwise.jpg) |
+| <img src="screenshots/splash.png" width="200"/> | <img src="screenshots/home.png" width="200"/> | <img src="screenshots/daywise.png" width="200"/> | <img src="screenshots/monthwise.png" width="200"/> |
+
 
 ## ✨ Features
 - Add and edit daily expenses  
