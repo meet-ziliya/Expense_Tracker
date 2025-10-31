@@ -19,7 +19,6 @@ Home Screen  Add Expense  Reports  
 - **IDE:** Android Studio  
 - **UI Components:** ConstraintLayout, RecyclerView, CardView, EditText, Button  
 - **Storage:** SQLite
-- 
 ---
 
 👨‍💻 *Developed by Thakkar Mitkumar Bharatbhai*
