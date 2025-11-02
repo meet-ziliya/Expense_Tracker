@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:paddingTop="30dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="Month Wise Reports"
+        app:titleTextColor="@android:color/white"
+        app:navigationIcon="@drawable/back_arrow" />
+
+    <!-- Year Navigation -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="#CFD8DC"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/btnPrevYear"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/left_arrow" />
+
+        <TextView
+            android:id="@+id/tvYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2025"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginHorizontal="20dp" />
+
+        <ImageView
+            android:id="@+id/btnNextYear"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/right_arrow" />
+    </LinearLayout>
+
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerMonthWise"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp" />
+
+    <!-- Total Footer -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="20dp"
+        android:background="#455A64">
+
+        <TextView
+            android:id="@+id/tvTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvTotalAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ₹0"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

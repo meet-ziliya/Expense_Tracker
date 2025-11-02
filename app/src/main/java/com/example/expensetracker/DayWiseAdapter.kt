@@ -1,0 +1,34 @@
+package com.example.expensetracker
+
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.TextView
+import androidx.recyclerview.widget.RecyclerView
+
+data class ExpenseItem(val category: String, val amount: Double, val date: String)
+
+class DayWiseAdapter(private val expenseList: List<ExpenseItem>) :
+    RecyclerView.Adapter<DayWiseAdapter.ExpenseViewHolder>() {
+
+    inner class ExpenseViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        val tvCategory: TextView = itemView.findViewById(R.id.tvCategory)
+        val tvDate: TextView = itemView.findViewById(R.id.tvDate)
+        val tvAmount: TextView = itemView.findViewById(R.id.tvAmount)
+    }
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ExpenseViewHolder {
+        val view = LayoutInflater.from(parent.context)
+            .inflate(R.layout.item_day_report, parent, false)
+        return ExpenseViewHolder(view)
+    }
+
+    override fun onBindViewHolder(holder: ExpenseViewHolder, position: Int) {
+        val expense = expenseList[position]
+        holder.tvCategory.text = expense.category
+        holder.tvDate.text = expense.date
+        holder.tvAmount.text = "₹%.2f".format(expense.amount)
+    }
+
+    override fun getItemCount(): Int = expenseList.size
+}
